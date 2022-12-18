@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.Artical__Title>h1{
+    
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.Artical__Title{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-right: 350px;
+
+
+}
+.block_Artical{
+
+    display: flex;
+    justify-content: center;
+
+}
+.container_left{
+
+    display: flex;
+    justify-content: center;
+    max-width: 1150px;
+
+}
+.container_right{
+
+    max-width: 300px;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.artical {
+    margin-left: 80px;
+}
+
+.artical{
+   
+    max-width: 450px;
+    
+}
+.artical>img{
+
+    width: 450px;
+    height: 300px;
+
+}
+.img_post> img{
+
+    width: 80px;
+    height: 75px;
+
+}
+.artical_btns{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.artical_btns>.btn:nth-child(2){
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.artical_btns>.btn:nth-child(1){
+
+    width: 80px;
+    height: 25px;
+    background-color: #f39646;
+
+}
+.artical_btns>.btn:nth-child(1) p{
+
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.artical_btns>.btn>p{
+
+    color: #000;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+.popular__img>img{
+    width: 300px;
+    height: 220px;
+}
+.title_Text_block>h2{
+   
+    font-size: 18px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+}
+.text_block>p{
+
+    font-size: 18px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+
+
+}
+.posts{
+
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.title_name_post{
+
+    margin-bottom: 50px;
+
+}
+
+.title_name_post>h2{
+
+    font-size: 22px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.popular__img{
+
+    margin-bottom: 50px;
+
+}
+.img_post{
+
+    margin-right: 10px;
+
+}
+.content_posts>h5{
+
+    font-size: 18px;
+    color: #000;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+
+}

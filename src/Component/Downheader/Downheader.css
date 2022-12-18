@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.ContentdownHeader{
+    display: flex;
+    justify-content: center;
+    background-color: #fef1e8;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.headerMenu{
+
+    padding-left: 250px;
+    padding-right: 250px;
+
+}
+
+.headerMenu ul {
+
+    display: flex;
+}
+.headerMenu ul li:not(:last-child){
+
+    padding-right: 30px;
+
+}
+.headerMenu ul li{
+
+    list-style-type: none;
+    color:black;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    cursor:pointer;
+
+}
+.headerSearch{
+
+    margin-bottom: 40px;
+
+}
+.headerSearch input {
+
+    width: 250px;
+    height: 30px;
+    background-color: transparent;
+
+}
+.blockSearch{
+
+    position: relative;
+    height: 30px;
+
+}
+.blockSearch>img {
+
+    position: absolute;
+    left: 5%;
+    top: 120%;
+
+}
+.Burgerbutton img {
+    cursor:pointer;
+}
+
+.headerSearch input[type = "text"]{
+
+ text-align: center;
+
+}

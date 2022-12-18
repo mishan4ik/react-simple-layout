@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.Things_block{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container{
+
+    display: flex;
+    justify-content: center;
+
+}
+.container_left_Things{
+    display: flex;
+    justify-content: center;
+    max-width: 1150px;
+
+}
+.container_right_Things{
+
+    max-width: 300px;
+    text-align: center;
+
+}
+
+.Things_left_side{
+
+    position: relative;
+
+}
+.Things_content{
+
+    position: absolute;
+    top: 82%;
+    left: 3%;
+
+}
+.Things_content>h2{
+
+    font-size: 28px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    width: 70%;
+
+}
+.Things_img>img {
+
+    width: 1150px;
+    height: 500px;
+    margin-right: 50px;
+
+}
+
+.title__Categories{
+
+    margin-bottom: 50px;
+
+}
+
+.title__Categories>h2{
+
+    font-size: 22px;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.table_category{
+
+    width: 300px;
+    max-height: 450px;
+    background-color: #fefbf6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.name_category{
+
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+.number_category{
+
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+.name_category>p,.number_category>p{
+
+    font-size: 18px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+
+}
